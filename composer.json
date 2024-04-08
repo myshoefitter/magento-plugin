@@ -1,0 +1,18 @@
+{
+  "name": "vendor/myshoefitter",
+  "description": "A single photo, always the perfect shoe size.",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "require": {
+    "php": "~7.3|~7.4|~8.1",
+    "magento/framework": "103.0.*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Vendor\\mySHOEFITTER\\": ""
+    }
+  }
+}
