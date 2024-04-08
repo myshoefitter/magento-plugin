@@ -1,18 +1,25 @@
 {
-  "name": "vendor/myshoefitter",
+  "name": "myshoefitter/magento",
   "description": "A single photo, always the perfect shoe size.",
   "type": "magento2-module",
   "version": "1.0.0",
+  "authors": [
+    {
+      "name": "mySHOEFITTER GmbH",
+      "email": "info@myshoefitter.com",
+      "homepage": "https://myshoefitter.com"
+    }
+  ],
   "require": {
-    "php": "~7.3|~7.4|~8.1",
-    "magento/framework": "103.0.*"
+    "php": "~7.4.0||~8.1.0||~8.2.0",
+    "magento/framework": ">=100.0.1"
   },
   "autoload": {
     "files": [
       "registration.php"
     ],
     "psr-4": {
-      "Vendor\\mySHOEFITTER\\": ""
+      "MyShoefitter\\Integration\\": ""
     }
   }
 }
